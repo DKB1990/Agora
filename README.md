@@ -1,20 +1,20 @@
 # Agora
 Agora E-commerce Portal
 
-## To RUN the APPLICATION (javascript, ES6)
+#### To run the application (javascript, ES6)
 - Double click on **index.html** in the root folder
 
-## To RUN the TEST CASES (mocha,chai browser based)
+#### To run the test cases (mocha,chai browser based)
 - Go to **./tests** folder
 - Double click on **index.html**
 
-## Features
+#### Features
 - Well-structured program with necessary abstraction, domain focus
 - Clean readable code
 - Unit test Cases and code coverage
 
-## Folder Structure
-
+#### Folder Structure
+```
 |_app.js_
 |_index.html_
 |**config**
@@ -35,11 +35,10 @@ Agora E-commerce Portal
 |--app.test.js
 |--index.html
 |_README.md_
-
-## Screenshots
+```
+#### Screenshots
 
 **Main Screen**
-**WELCOME SCREEN**
-![alt text](./screenshots/1.png)
+![alt text](./screenshots/main.PNG)
 
 
