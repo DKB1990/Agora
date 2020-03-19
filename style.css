@@ -1,0 +1,55 @@
+body{
+font-family: Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+}
+.bill{
+    margin-left: 11%;
+}
+h3{
+    text-align:center;
+}
+.removeLink{
+    cursor: pointer;
+}
+.no-gutters{
+    margin: 1% 3% 0 3% !important;
+}
+.cart-list-group li{
+    list-style: none !important;
+    border: 3px dotted gainsboro;
+    margin: 5px;
+    padding: 5px;
+}
+.cart-list-group li:hover{
+    border: 3px solid gainsboro;
+}
+#product-list{
+    margin-right: 2%;
+    position: absolute;
+    height: 500px;
+}
+.product-list-group{
+    overflow-y: auto;
+}
+#cart-list-group{
+    display: none;
+}
+.show-cart-list-group{
+    display:block !important;
+}
+.product-card{
+    margin-bottom:10px;
+    border: 3px dotted gainsboro !important;
+}
+.product-card:hover{
+    border: 3px solid gainsboro !important;
+}
+
+#product-card, .offer-badge{
+    cursor: pointer;
+}
+.navbar-dark{
+    background-color: gainsboro !important;
+}
+.cart-btn{
+    margin-left:35%;
+}

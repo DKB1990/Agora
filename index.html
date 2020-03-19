@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Agora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="container">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-6 col-md-8">
+                <h3>Products</h3>
+                <div id="product-list">
+                    <div class="row product-list-group">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <h3 id="product-card">Cart Items: <span id="numberOfCartItems">0</span></h3>
+                <div id="cart-list">
+                    <ul class="cart-list-group">
+                    </ul>
+                    <div class="bill">
+                    <div id="eligible-Offers">
+                        <h6>Offers Applicable (only one)</h6>
+                        <div id="offer-list-group">
+                        </div>
+                    </div>
+                    <h4 id="finalCartAmount">Total Bill: $0</h4>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="./datastore/data.json"></script>
+<script src="./config/constants.config.js"></script>
+<script src="./config/errors.config.js"></script>
+<script src="./config/offers.config.js"></script>
+<script src="./handlers/cart.handler.js"></script>
+<script src="./handlers/price.handler.js"></script>
+<script src="./handlers/validation.handler.js"></script>
+<script src="./handlers/offers/buy_X_Get_Y_Free.offer.js"></script>
+<script src="./handlers/offers/discount_X_Over_Y_Items.offer.js"></script>
+<script src="./handlers/offers/offer.handler.js"></script>
+<script src="app.js"></script>

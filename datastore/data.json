@@ -1,0 +1,31 @@
+data = [{
+            "id": 1,
+            "name": "Strawberries (250 gm)",
+            "size": 250,
+            "price": 4,
+            "offers": "discount_X_Over_Y_Items"
+        },{
+            "id": 2,
+            "name": "Hand Sanatizer (500 ml)",
+            "size": 500,
+            "price": 5,
+            "offers": "buy_X_Get_Y_Free"
+        },{
+            "id": 3,
+            "name": "White Sugar (1 Kg/pkt)",
+            "size": 1000,
+            "price": 20,
+            "offers": "discount_X_Over_Y_Items"
+        },{
+            "id": 4,
+            "name": "Banana (1 Dozen)",
+            "size": 1,
+            "price": 2,
+            "offers": "discount_X_Over_Y_Items"
+        },{
+            "id": 5,
+            "name": "Heinz Ketchup (500 ml)",
+            "size": 500,
+            "price": 9.5,
+            "offers": "buy_X_Get_Y_Free"
+        }]
