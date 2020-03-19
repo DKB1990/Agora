@@ -41,4 +41,6 @@ Agora E-commerce Portal
 **Main Screen**
 ![alt text](./screenshots/main.PNG)
 
+**Test Cases Screen**
+![alt text](./screenshots/TestCases.PNG)
 
