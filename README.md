@@ -15,23 +15,23 @@ Agora E-commerce Portal
 
 #### Folder Structure
 ```
-|_app.js_
-|_index.html_
-|**config**
+|app.js
+|index.html
+./config
 |--constants.config.js
 |--errors.config.js
 |--offers.config.js
-|**datastore**
+./datastore
 |--data.json
-|**handlers**
-|--_offers_
+./handlers
+|--./offers
 |----buy_X_Get_Y_Free.offer.js
 |----discount_X_Over_Y_Items.offer.js
 |----offer.handler.js
 |--cart.handler.js
 |--price.handler.js
 |--validation.handler.js
-|**tests**
+./tests
 |--app.test.js
 |--index.html
 |_README.md_
